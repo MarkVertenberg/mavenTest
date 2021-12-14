@@ -8,5 +8,7 @@ public class simpleProgramTest {
     void minimumTest(){
         int[] numbers = {23, 12, 5, 8, 98};
         assertEquals(5, simpleProgram.minimum(numbers));
+        numbers = new int[]{};
+        assertEquals(-1, simpleProgram.minimum(numbers));
     }
 }
